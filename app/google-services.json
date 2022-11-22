@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "873042963054",
+    "project_id": "rutadelcielacobbdd-firebase",
+    "storage_bucket": "rutadelcielacobbdd-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873042963054:android:369a697a8533927cd2547f",
+        "android_client_info": {
+          "package_name": "com.rutadelcielacoAPP.evaluacion1_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873042963054-767p7qe00n0ccm2kdjtgtqfm34olfkm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Xs-d8xXFdZh9kGlweDXsR8F-p_XZmBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873042963054-767p7qe00n0ccm2kdjtgtqfm34olfkm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

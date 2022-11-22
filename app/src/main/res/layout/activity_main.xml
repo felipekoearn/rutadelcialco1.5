@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo3"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnregistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="550dp"
+        android:fontFamily="sans-serif-black"
+        android:onClick="formulario"
+        android:text="@string/boton_nuevoUsuario" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="36dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="La ruta del cielaco"
+        android:textColor="@color/black"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="230dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/singin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="490dp"
+        android:fontFamily="sans-serif-black"
+        android:ems="30"
+        android:text="@string/boton_entrar" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="990px"
+        android:fontFamily="sans-serif-black"
+        android:text="Recordar" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="740px"
+        android:layout_marginTop="990px"
+        android:fontFamily="sans-serif-black"
+        android:text="mostrar contraseña" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="325dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Ingrese Usuario"
+        android:textSize="19sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="290dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Ingrese Contraseña"
+        android:textSize="19sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="61dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/icono" />
+
+
+</RelativeLayout>

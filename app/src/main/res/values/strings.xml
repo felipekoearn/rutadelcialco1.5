@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Evaluacion1_Android</string>
+    <string name="boton_entrar">Entrar</string>
+    <string name="boton_anterior">Salir</string>
+    <string name="boton_Galeria">Alimentos</string>
+    <string name="boton_SalirGaleria">Volver</string>
+    <string name="boton_Rutas">Rutas</string>
+    <string name="boton_SalirRutas">Volver</string>
+    <string name="boton_Mapas">Mapas</string>
+    <string name="boton_Salirmapa">Atras</string>
+    <string name="boton_nuevoUsuario">Nuevo usuario</string>
+    <string name="boton_iniciarSesion">Iniciar session</string>
+
+
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="googleApi">AIzaSyAMAYlzLRy4DpvVRxyuMtzwJ-Ppovuk7_8</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+
+</resources>
